@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
-  contents: write  # 🟢 разрешаем пушить в репозиторий
+  contents: write
 
 jobs:
   build:
@@ -14,12 +15,15 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate data.json from /images recursively
         run: |
           echo "[" > data.json
-          find images -type f -name "*.png" | sort | sed 's|^images/||' | awk '{ printf "  {\"file\": \"%s\"},\n", $0 }' >> data.json
+          find images -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.gif" -o -name "*.webp" \) \
+            | sort \
+            | sed 's|^images/||' \
+            | awk '{ printf "  {\"file\": \"%s\"},\n", $0 }' >> data.json
           sed -i '$ s/,$//' data.json
           echo "]" >> data.json
 
