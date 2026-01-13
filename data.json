@@ -488,5 +488,19 @@
   {"file": "Nuckems/Technik_Ochki.png"},
   {"file": "Nuckems/TechnoNuckem.png"},
   {"file": "Nuckems/ded.png"},
-  {"file": "Oazis.png"}
+  {"file": "Oazis.png"},
+  {"file": "Servers_Boosty/Bandit.png"},
+  {"file": "Servers_Boosty/Bandit_2.png"},
+  {"file": "Servers_Boosty/Bandit_3.png"},
+  {"file": "Servers_Boosty/Krampys.png"},
+  {"file": "Servers_Boosty/Nuckem_Blue.png"},
+  {"file": "Servers_Boosty/Ohranik.png"},
+  {"file": "Servers_Boosty/Policeman_1.png"},
+  {"file": "Servers_Boosty/Policeman_2.png"},
+  {"file": "Servers_Boosty/Policeman_3.png"},
+  {"file": "Servers_Boosty/Policeman_4.png"},
+  {"file": "Servers_Boosty/Policeman_5.png"},
+  {"file": "Servers_Boosty/Policeman_6.png"},
+  {"file": "Servers_Boosty/Policeman_7.png"},
+  {"file": "Servers_Boosty/Vospitatel.png"}
 ]
