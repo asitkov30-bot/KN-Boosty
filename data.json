@@ -613,5 +613,8 @@
   {"file": "Servers_Boosty/Policeman_5.png"},
   {"file": "Servers_Boosty/Policeman_6.png"},
   {"file": "Servers_Boosty/Policeman_7.png"},
-  {"file": "Servers_Boosty/Vospitatel.png"}
+  {"file": "Servers_Boosty/Vospitatel.png"},
+  {"file": "camera.png"},
+  {"file": "phone.png"},
+  {"file": "rusty.png"}
 ]
